@@ -1,0 +1,12 @@
+com\WinPro\Pages\Login.class
+com\WinPro\Pages\Loginpage1.class
+com\WinPro\Pages\create_new_record__drop__leads.class
+com\WinPro\Pages\createnewrecord.class
+com\WinPro\Pages\create_new_record__drop__Accounts.class
+com\WinPro\GenericLib\WebDriverCommonLib.class
+com\WinPro\Pages\CreateNewReportFolderPage.class
+com\WinPro\Pages\recordstab.class
+com\WinPro\GenericLib\iAutoConsts.class
+com\WinPro\Pages\DropContinueCancel.class
+com\WinPro\GenericLib\BaseTest.class
+com\WinPro\GenericLib\FileLib.class

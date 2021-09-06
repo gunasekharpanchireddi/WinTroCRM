@@ -1,0 +1,5 @@
+com\WinPro\Records\CreateNewRecord.class
+com\WinPro\Records\CreateNewRecord_drop_accounts.class
+com\WinPro\Records\CreateNewRecordFolder.class
+com\WinPro\Records\RecordsTab.class
+com\WinPro\Records\CreateNewRecord_drop_leads.class

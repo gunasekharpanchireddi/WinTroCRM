@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 04 12:22:41 IST 2021</td>
+<td>Started on:</td><td>Sun Sep 12 12:27:50 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>32 seconds (32631 ms)</td>
+<tr><td>Total time:</td><td>149 seconds (149621 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,35 +75,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.WinPro.Records.CreateNewRecord_drop_accounts.test()'><b>test</b><br>Test class: com.WinPro.Records.CreateNewRecord_drop_accounts</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 91
-Current browser version is 93.0.4577.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+<td title='com.WinPro.Records.CreateNewRecord_drop_leads.leads()'><b>leads</b><br>Test class: com.WinPro.Records.CreateNewRecord_drop_leads</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;GUNA&apos;, ip: &apos;192.168.74.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00E42DB3+2502067]
-	Ordinal0 [0x00DDC5B1+2082225]
-	Ordinal0 [0x00CE2498+1057944]
-	Ordinal0 [0x00D005DA+1181146]
-	Ordinal0 [0x00CFC43C+1164348]
-	Ordinal0 [0x00CF9C73+1154163]
-	Ordinal0 [0x00D29A22+1350178]
-	Ordinal0 [0x00D2967A+1349242]
-	Ordinal0 [0x00D25BEB+1334251]
-	Ordinal0 [0x00D02174+1188212]
-	Ordinal0 [0x00D03009+1191945]
-	GetHandleVerifier [0x00FBEC5C+1511084]
-	GetHandleVerifier [0x01068522+2205554]
-	GetHandleVerifier [0x00EC3393+480739]
-	GetHandleVerifier [0x00EC2579+477129]
-	Ordinal0 [0x00DE1E5D+2104925]
-	Ordinal0 [0x00DE63F8+2122744]
-	Ordinal0 [0x00DE6537+2123063]
-	Ordinal0 [0x00DEEE53+2158163]
-	BaseThreadInitThunk [0x7608FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x76FD7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x76FD7A4E+238]
+	Ordinal0 [0x00D8A2D3+2663123]
+	Ordinal0 [0x00D1A491+2204817]
+	Ordinal0 [0x00C02118+1057048]
+	Ordinal0 [0x00C1F792+1177490]
+	Ordinal0 [0x00C1C119+1163545]
+	Ordinal0 [0x00C19B7F+1153919]
+	Ordinal0 [0x00C49D8F+1351055]
+	Ordinal0 [0x00C499FA+1350138]
+	Ordinal0 [0x00C4589B+1333403]
+	Ordinal0 [0x00C21F74+1187700]
+	Ordinal0 [0x00C22DC9+1191369]
+	GetHandleVerifier [0x00F230D6+1610054]
+	GetHandleVerifier [0x00FCB53B+2299307]
+	GetHandleVerifier [0x00E18DA9+519705]
+	GetHandleVerifier [0x00E17759+513993]
+	Ordinal0 [0x00D2112D+2232621]
+	Ordinal0 [0x00D255F8+2250232]
+	Ordinal0 [0x00D25732+2250546]
+	Ordinal0 [0x00D2E591+2286993]
+	BaseThreadInitThunk [0x75C5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77A87A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77A87A4E+238]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -129,37 +128,36 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at com.WinPro.GenericLib.BaseTest.openbrowser(BaseTest.java:19)
 	at com.WinPro.Pages.Loginpage1.loginpage(Loginpage1.java:13)
-	at com.WinPro.Records.CreateNewRecord_drop_accounts.test(CreateNewRecord_drop_accounts.java:15)
+	at com.WinPro.Records.CreateNewRecord_drop_leads.leads(CreateNewRecord_drop_leads.java:17)
 	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2129442232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2129442232'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 91
-Current browser version is 93.0.4577.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace746074699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace746074699'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;GUNA&apos;, ip: &apos;192.168.74.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00E42DB3+2502067]
-	Ordinal0 [0x00DDC5B1+2082225]
-	Ordinal0 [0x00CE2498+1057944]
-	Ordinal0 [0x00D005DA+1181146]
-	Ordinal0 [0x00CFC43C+1164348]
-	Ordinal0 [0x00CF9C73+1154163]
-	Ordinal0 [0x00D29A22+1350178]
-	Ordinal0 [0x00D2967A+1349242]
-	Ordinal0 [0x00D25BEB+1334251]
-	Ordinal0 [0x00D02174+1188212]
-	Ordinal0 [0x00D03009+1191945]
-	GetHandleVerifier [0x00FBEC5C+1511084]
-	GetHandleVerifier [0x01068522+2205554]
-	GetHandleVerifier [0x00EC3393+480739]
-	GetHandleVerifier [0x00EC2579+477129]
-	Ordinal0 [0x00DE1E5D+2104925]
-	Ordinal0 [0x00DE63F8+2122744]
-	Ordinal0 [0x00DE6537+2123063]
-	Ordinal0 [0x00DEEE53+2158163]
-	BaseThreadInitThunk [0x7608FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x76FD7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x76FD7A4E+238]
+	Ordinal0 [0x00D8A2D3+2663123]
+	Ordinal0 [0x00D1A491+2204817]
+	Ordinal0 [0x00C02118+1057048]
+	Ordinal0 [0x00C1F792+1177490]
+	Ordinal0 [0x00C1C119+1163545]
+	Ordinal0 [0x00C19B7F+1153919]
+	Ordinal0 [0x00C49D8F+1351055]
+	Ordinal0 [0x00C499FA+1350138]
+	Ordinal0 [0x00C4589B+1333403]
+	Ordinal0 [0x00C21F74+1187700]
+	Ordinal0 [0x00C22DC9+1191369]
+	GetHandleVerifier [0x00F230D6+1610054]
+	GetHandleVerifier [0x00FCB53B+2299307]
+	GetHandleVerifier [0x00E18DA9+519705]
+	GetHandleVerifier [0x00E17759+513993]
+	Ordinal0 [0x00D2112D+2232621]
+	Ordinal0 [0x00D255F8+2250232]
+	Ordinal0 [0x00D25732+2250546]
+	Ordinal0 [0x00D2E591+2286993]
+	BaseThreadInitThunk [0x75C5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77A87A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77A87A4E+238]
 
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -189,7 +187,7 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at com.WinPro.GenericLib.BaseTest.openbrowser(BaseTest.java:19)
 	at com.WinPro.Pages.Loginpage1.loginpage(Loginpage1.java:13)
-	at com.WinPro.Records.CreateNewRecord_drop_accounts.test(CreateNewRecord_drop_accounts.java:15)
+	at com.WinPro.Records.CreateNewRecord_drop_leads.leads(CreateNewRecord_drop_leads.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,8 +217,155 @@ remote stacktrace: Backtrace:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>32</td>
-<td>com.WinPro.Records.CreateNewRecord_drop_accounts@6ec8211c</td></tr>
+<td>63</td>
+<td>com.WinPro.Records.CreateNewRecord_drop_leads@306279ee</td></tr>
+<tr>
+<td title='com.WinPro.Records.CreateNewRecord.NewRecord()'><b>NewRecord</b><br>Test class: com.WinPro.Records.CreateNewRecord</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GUNA&apos;, ip: &apos;192.168.74.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D8A2D3+2663123]
+	Ordinal0 [0x00D1A491+2204817]
+	Ordinal0 [0x00C01FE0+1056736]
+	Ordinal0 [0x00BF6F95+1011605]
+	Ordinal0 [0x00C1FD61+1178977]
+	Ordinal0 [0x00C1C335+1164085]
+	Ordinal0 [0x00C19B7F+1153919]
+	Ordinal0 [0x00C49D8F+1351055]
+	Ordinal0 [0x00C499FA+1350138]
+	Ordinal0 [0x00C4589B+1333403]
+	Ordinal0 [0x00C21F74+1187700]
+	Ordinal0 [0x00C22DC9+1191369]
+	GetHandleVerifier [0x00F230D6+1610054]
+	GetHandleVerifier [0x00FCB53B+2299307]
+	GetHandleVerifier [0x00E18DA9+519705]
+	GetHandleVerifier [0x00E17759+513993]
+	Ordinal0 [0x00D2112D+2232621]
+	Ordinal0 [0x00D255F8+2250232]
+	Ordinal0 [0x00D25732+2250546]
+	Ordinal0 [0x00D2E591+2286993]
+	BaseThreadInitThunk [0x75C5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77A87A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77A87A4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.WinPro.GenericLib.BaseTest.openbrowser(BaseTest.java:19)
+	at com.WinPro.Pages.Loginpage1.loginpage(Loginpage1.java:13)
+	at com.WinPro.Records.CreateNewRecord.NewRecord(CreateNewRecord.java:13)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1902671237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1902671237'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GUNA&apos;, ip: &apos;192.168.74.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D8A2D3+2663123]
+	Ordinal0 [0x00D1A491+2204817]
+	Ordinal0 [0x00C01FE0+1056736]
+	Ordinal0 [0x00BF6F95+1011605]
+	Ordinal0 [0x00C1FD61+1178977]
+	Ordinal0 [0x00C1C335+1164085]
+	Ordinal0 [0x00C19B7F+1153919]
+	Ordinal0 [0x00C49D8F+1351055]
+	Ordinal0 [0x00C499FA+1350138]
+	Ordinal0 [0x00C4589B+1333403]
+	Ordinal0 [0x00C21F74+1187700]
+	Ordinal0 [0x00C22DC9+1191369]
+	GetHandleVerifier [0x00F230D6+1610054]
+	GetHandleVerifier [0x00FCB53B+2299307]
+	GetHandleVerifier [0x00E18DA9+519705]
+	GetHandleVerifier [0x00E17759+513993]
+	Ordinal0 [0x00D2112D+2232621]
+	Ordinal0 [0x00D255F8+2250232]
+	Ordinal0 [0x00D25732+2250546]
+	Ordinal0 [0x00D2E591+2286993]
+	BaseThreadInitThunk [0x75C5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77A87A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77A87A4E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.WinPro.GenericLib.BaseTest.openbrowser(BaseTest.java:19)
+	at com.WinPro.Pages.Loginpage1.loginpage(Loginpage1.java:13)
+	at com.WinPro.Records.CreateNewRecord.NewRecord(CreateNewRecord.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>86</td>
+<td>com.WinPro.Records.CreateNewRecord@3578436e</td></tr>
 </table><p>
 </body>
 </html>

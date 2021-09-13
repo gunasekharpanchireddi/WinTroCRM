@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.WinPro.Records.CreateNewRecord_drop_accounts"/>
+      <class name="com.WinPro.Records.CreateNewRecord"/>
+      <class name="com.WinPro.Records.CreateNewRecord_drop_leads"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

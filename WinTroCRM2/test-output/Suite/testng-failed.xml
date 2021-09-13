@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.WinPro.Records.CreateNewRecord_drop_accounts">
+      <class name="com.WinPro.Records.CreateNewRecord_drop_leads">
         <methods>
-          <include name="test"/>
+          <include name="leads"/>
         </methods>
-      </class> <!-- com.WinPro.Records.CreateNewRecord_drop_accounts -->
+      </class> <!-- com.WinPro.Records.CreateNewRecord_drop_leads -->
+      <class name="com.WinPro.Records.CreateNewRecord">
+        <methods>
+          <include name="NewRecord"/>
+        </methods>
+      </class> <!-- com.WinPro.Records.CreateNewRecord -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
